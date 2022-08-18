@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         igboedittext.setOnClickListener {
             keyboardparentlayout.visibility = View.VISIBLE
+            keyboardparentlayout.visibility = View.VISIBLE
             val slideup = AnimationUtils.loadAnimation(applicationContext, R.anim.abc_fade_in)
             keyboardparentlayout.startAnimation(slideup)
         }
